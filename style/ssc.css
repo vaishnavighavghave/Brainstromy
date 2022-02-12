@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+*{
+    font-family: 'Libre Franklin', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(248, 232, 219, 0.945);
+}
+.nav{
+    background-color:rgba(248, 169, 104, 0.904);
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+}
+.line{
+    background-color: black;
+    height: 3vh;
+    width: 1px;    
+}
+.tital a{
+    font-size: 4vh;
+}
+#profile{
+    font-size: 3vh;
+    border: none;
+    background-color:rgba(255, 255, 255, 0);
+}
+.content{
+    margin: 4%;
+}
+.headline{
+    font-size:4vh;
+    margin: 2%;
+}
+.card{
+    display: flex;
+    margin: 2%;
+}
+.sub{
+    background-color:white;
+    padding:4%;
+    font-size: 3vh;
+    border-radius:10%;
+    margin: 1%;
+    transition: 1000ms;
+    border: 0;
+}
+#profile-bar ul li {
+    display:block;
+    margin:5%;
+}
+#profile-bar ul li a{
+    list-style:none;
+    text-decoration:none;
+    color:black;
+}
+#profile-bar{
+    display:none;
+    position: absolute;
+    background-color:rgba(248, 169, 104, 0.918);    
+    height:fit-content;
+    width: 300px;
+    top: 2;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+    font-size:3vh;
+    transition: 500ms;
+}
+.sub:hover {
+    background-color:rgba(0, 0, 0, 0.103);
+    transition: 500ms;
+}
+.sub a{
+    text-decoration:none;
+    color:black;
+}

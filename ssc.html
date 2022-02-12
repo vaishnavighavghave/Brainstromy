@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/ssc.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">    
+    <title>SSC</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="tital"><a>Brainstromy</a></div>
+        <button id="profile"></button>
+    </div>
+
+    <div id="profile-bar">
+        <ul>
+            <li><a href="#">Profile</a></li>
+            <li><a href="home.html">Courses</a> </li>
+            <li><a href="dashboard.html">Logout</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <a class="headline">Languages</a>
+        <div class="card">
+            <button class="sub" id="ssceng">English</button>
+            <button class="sub" id="sscmar">Marathi</button>
+        </div>
+        <a class="headline">Core Subjects</a>
+        <div class="card">
+            <button class="sub" id="sscmath">Mathematics</button>
+            <button class="sub" id="sscscience">Science</button>
+        </div>
+        <a class="headline">Social Subjects</a>
+        <div class="card">
+            <button class="sub" id="sschis">Hisory</button>
+            <button class="sub" id="sscgeo">Geography</button>
+        </div>
+    </div>
+
+
+
+    <script src="js/ssc.js"></script>
+
+    <script>
+        document.getElementById('ssceng').addEventListener('click', function () {
+                window.location.href = "ssc/eng.html";
+            });
+            document.getElementById('sscmar').addEventListener('click', function () {
+                window.location.href = "ssc/mar.html";
+            });
+            document.getElementById('sscmath').addEventListener('click', function () {
+                window.location.href = "ssc/math.html";
+            });
+            document.getElementById('sscscience').addEventListener('click', function () {
+                window.location.href = "ssc/sci.html";
+            });
+            document.getElementById('sschis').addEventListener('click', function () {
+                window.location.href = "ssc/his.html";
+            });
+            document.getElementById('sscgeo').addEventListener('click', function () {
+                window.location.href = "ssc/geo.html";
+            });
+    </script>
+
+</body>
+</html>

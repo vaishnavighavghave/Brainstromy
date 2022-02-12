@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+
+body{
+    background-color:rgb(248, 169, 104);
+}
+.container1{
+    background-color: rgba(248, 232, 219, 0.945);
+    width:500px;
+    margin-left: 500px;
+    margin-top: 200px;
+    border-radius:8px;
+    position: relative;
+}
+.name1{
+    text-align:center;
+    font-size:50px;
+    margin-bottom:50px;
+    color: rgb(0, 0, 0);
+    font-family: 'Quicksand', sans-serif;
+}
+.ipusername{
+    background-color:rgba(248, 232, 219, 0.945);
+    margin-left: 110px;
+    padding: 10px;
+    font-size: 20px;
+    border-left: 0;
+    border-right: 0;
+    border-top:0;
+    margin-bottom: 20px;
+}
+.ippassword{
+    background-color:rgba(248, 232, 219, 0.945);
+    margin-left: 110px;
+    padding: 10px;
+    font-size: 20px;
+    border-left: 0;
+    border-right: 0;
+    border-top:0;
+    margin-bottom: 20px;
+}
+.btn{
+    height:30px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;    
+    margin-top:20px;
+    margin-bottom: 20px;
+    background-color:rgba(248, 232, 219, 0.945);
+    font-size: 20px;
+    border:0;
+}
+.back-btn{
+    text-align:center;
+    margin-top:20px;
+}
+.back-btn a{
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.904);
+}
+.heading{
+    margin-left: 100px;
+    margin-top: 80px; 
+}
+.heading h1{
+    font-weight: 100;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(0, 0, 0);
+}
+.up,.down{
+    margin-right: 80px;
+    margin-left: 180px;
+}
+.form1{
+    display: flex;
+}
+.fulname,.username2,.email,.password2{
+    margin-top:  50px;
+}
+.fulname a,.username2 a,.email a,.password2 a{
+    font-family: 'Quicksand', sans-serif;
+    font-size:20px;
+}
+.fulname input,.username2 input,.email input,.password2 input{
+    background-color:rgb(248, 169, 104);
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border-left: 0;
+    border-right: 0;
+    border-top:0;
+}
+.btn-btn{
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:40%;    
+    margin-top:150px;
+    margin-bottom: 20px;
+}
+.btn-btn button{
+    background-color:rgb(248, 169, 104);
+    border: 0;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+}

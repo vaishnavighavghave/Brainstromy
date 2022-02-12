@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/ssc.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>HSC</title>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="tital"><a>Brainstromy</a></div>
+        <button id="profile"></button>
+    </div>
+
+    <div id="profile-bar">
+        <ul>
+            <li><a href="#">Profile</a></li>
+            <li><a href="home.html">Courses</a> </li>
+            <li><a href="dashboard.html">Logout</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <a class="headline">Core Subjects</a>
+        <div class="card">
+            <button class="sub" id="hscmath">Mathematics</button>
+            <button class="sub" id="hscchem">Chemistry</button>
+            <button class="sub" id="hscphy">Physics</button>
+            <button class="sub" id="hscbio">Biology</button>
+        </div>
+        <a class="headline">Techncal Subjects</a>
+        <div class="card">
+            <button class="sub" id="hsccs">Computer Science</button>
+            <button class="sub" id="hscel">Electronics</button>
+            <button class="sub" id="hscfish">Fisheries</button>
+        </div>
+    </div>
+
+
+
+    <script src="js/ssc.js"></script>
+
+
+    <script>
+        document.getElementById('hscmath').addEventListener('click', function () {
+                window.location.href = "hsc/math.html";
+            });
+            document.getElementById('hscchem').addEventListener('click', function () {
+                window.location.href = "hsc/chem.html";
+            });
+            document.getElementById('hscphy').addEventListener('click', function () {
+                window.location.href = "hsc/phy.html";
+            });
+            document.getElementById('hscbio').addEventListener('click', function () {
+                window.location.href = "hsc/bio.html";
+            });
+            document.getElementById('hsccs').addEventListener('click', function () {
+                window.location.href = "hsc/cs.html";
+            });
+            document.getElementById('hscel').addEventListener('click', function () {
+                window.location.href = "hsc/el.html";
+            });
+            document.getElementById('hscfish').addEventListener('click', function () {
+                window.location.href = "hsc/fish.html";
+            });
+
+    </script>
+
+</body>
+
+</html>

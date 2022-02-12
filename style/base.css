@@ -1,0 +1,36 @@
+.content1 {
+    display: flex;
+    justify-content:space-between;
+}
+
+.videos {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2%;
+}
+.videos iframe{
+    margin: 2%;
+}
+
+.testbar {
+    background-color:rgba(248, 169, 104, 0.904);    
+    width: 300px;;
+    text-align: center;
+    padding:1%;
+    padding-top:3%;
+}
+.testbar button{
+    padding:20%;
+    font-size:3vh;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.904);
+    border: none;
+    border-radius:20%;
+    transition:500ms;
+}
+.testbar button:hover{
+    background-color:rgba(0, 0, 0, 0.315);
+    transition: 500ms;
+}
