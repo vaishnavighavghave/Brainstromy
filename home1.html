@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home </title>
+    <link rel="stylesheet" href="style/home.css">
+</head>
+
+<body>
+    <div class="wlcm">
+        <h1>Select your category</h1>
+    </div>
+    <div class="cards">
+        <div class="ssc">
+            <h1>SSC</h1>
+            <div class="line"><a></a></div>
+            <div class="content">
+                <ul>
+                    <li>
+                        <a class="mjrtopic">Languages</a>
+                        <ul>
+                            <li>English</li>
+                            <li>Marathi</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="mjrtopic">Core Subjects</a>
+                        <ul>
+                            <li>Mathematics</li>
+                            <li>Science</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="mjrtopic">Social Subjects</a>
+                        <ul>
+                            <li>History</li>
+                            <li>Geography</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="foot2"><button type="button" id="sscbtn">Select</button></div>
+        </div>
+        <div class="hsc">
+            <h1>HSC</h1>
+            <div class="line"><a></a></div>
+            <div class="content">
+                <ul>
+                    <li>
+                        <a class="mjrtopic">Core Subjects</a>
+                        <ul>
+                            <li>Mathematics</li>
+                            <li>Chemistry</li>
+                            <li>Physics</li>
+                            <li>Biology</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="mjrtopic">Techncal Subjects</a>
+                        <ul>
+                            <li>Computer Science</li>
+                            <li>Electronics</li>
+                            <li>Fisheries</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="foot"><button type="button" id="hscbtn">Select</button></div>
+        </div>
+    </div>
+    <script>
+        window.onload = function() {
+            document.getElementById('sscbtn').addEventListener('click', function() {
+                window.location.href = "ssc.html";
+            });
+            document.getElementById('hscbtn').addEventListener('click', function() {
+                window.location.href = "hsc.html";
+            });
+        }
+    </script>
+</body>
+
+</html>

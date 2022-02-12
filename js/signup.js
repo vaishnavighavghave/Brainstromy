@@ -13,11 +13,11 @@ window.onload = function() {
         window.sessionStorage.setItem('email', email.value);
         window.sessionStorage.setItem('password', password.value);
 
-        window.location.href = "dashboard.html";
+        window.location.href = "home.html";
     });
     
     document.getElementById('backButton').addEventListener('click', function(){
-        window.location.href = "dashboard.html"; 
+        window.location.href = "home.html"; 
     })
 
 }

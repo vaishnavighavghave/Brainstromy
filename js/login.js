@@ -34,7 +34,7 @@ window.onload = function () {
                     
                     console.log("Success");
                     window.sessionStorage.setItem('currentusername', users[i].fullname);
-                    window.location.href = "home.html"; //next page after success login
+                    window.location.href = "home1.html"; //next page after success login
 
                     break;
                 }
@@ -50,7 +50,7 @@ window.onload = function () {
 
                         console.log("Success");
                         window.sessionStorage.setItem('currentusername', x);
-                        window.location.href = "home.html"; //next page after success login
+                        window.location.href = "home1.html"; //next page after success login
 
                         break;
                     }
